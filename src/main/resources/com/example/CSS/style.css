@@ -1,0 +1,30 @@
+/* Style pour la racine */
+.root {
+    -fx-font-family: 'Arial';
+    -fx-background-color: #F0F0F0;
+}
+
+/* Style pour les TextFields */
+.text-field {
+    -fx-background-color: white;
+    -fx-border-color: #DDDDDD;
+    -fx-padding: 10;
+    -fx-font-size: 14pt;
+}
+
+/* Style pour les Buttons */
+.button {
+    -fx-background-color: #FF6F61;
+    -fx-text-fill: white;
+    -fx-font-size: 14pt;
+    -fx-cursor: hand;
+    -fx-padding: 10;
+}
+
+/* Style pour le ListView */
+.list-view {
+    -fx-background-color: #FFF;
+    -fx-border-color: #DDDDDD;
+    -fx-padding: 5;
+    -fx-font-size: 14pt;
+}

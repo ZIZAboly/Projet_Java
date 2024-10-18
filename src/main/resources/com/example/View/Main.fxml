@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controller.MainController">
+    <TextField fx:id="titreField" promptText="Titre"/>
+    <TextField fx:id="artisteField" promptText="Artiste"/>
+    <TextField fx:id="dureeField" promptText="Durée (en secondes)"/>
+    <Button fx:id="ajouterButton" text="Ajouter Chanson" onAction="#ajouterChanson"/>
+    <ListView fx:id="playlistView" />
+</VBox>
